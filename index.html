@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!--  Styles  -->
+    <link rel="stylesheet" href="sass/main.scss" />
+    <!--  Favicon  -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>Backroads | Tour Company</title>
+  </head>
+  <body>
+    <!--  Header  -->
+    <header id="home">
+      <!--  Navbar  -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!--  Nav Header  -->
+          <div class="nav-header">
+            <img
+              src="./images/logo.svg"
+              alt="Backroads Company"
+              class="nav-logo"
+            />
+            <button
+              type="button"
+              class="nav-toggle"
+              id="nav-toggle"
+              aria-label="nav toggler"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!--  Navbar Links  -->
+          <div class="nav-links" id="nav-links">
+            <a href="#home" class="nav-link scroll-link">Home</a>
+            <a href="#about" class="nav-link scroll-link">About</a>
+            <a href="#services" class="nav-link scroll-link">Services</a>
+            <a href="#featured" class="nav-link scroll-link">Featured</a>
+            <a href="#gallery" class="nav-link scroll-link">Gallery</a>
+          </div>
+          <!--  Navbar Icons  -->
+          <div class="nav-icons">
+            <a href="https://www.facebook.com" target="_blank" class="nav-icon">
+              <i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.facebook.com" target="_blank" class="nav-icon">
+              <i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.facebook.com" target="_blank" class="nav-icon">
+              <i class="fab fa-squarespace"></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+      <!--  Hero Component  -->
+      <div class="hero">
+        <div class="hero-banner">
+          <h1 class="hero-title">continue exploring</h1>
+          <p class="hero-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab pariatur
+            praesentium modi autem neque quod sunt dicta eaque quasi maiores.
+          </p>
+          <a href="#features" class="btn-white">explore tours</a>
+        </div>
+      </div>
+    </header>
+
+    <!--  About Section -->
+    <section class="section about" id="about">
+      <!-- Title -->
+      <div class="title-wrapper">
+        <h2 class="title">about <span class="subtitle">us</span></h2>
+      </div>
+      <!--  About Center-->
+      <div class="about-center section-center">
+        <!--  About Image -->
+        <article class="about-img">
+          <img
+            src="./images/about.jpeg"
+            class="about-photo"
+            alt="Awesome Beach"
+          />
+        </article>
+        <!--  About Info  -->
+        <article class="about-info">
+          <h3>explore the difference</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
+            atque voluptate esse ex rem pariatur, quasi nihil placeat eveniet
+            ipsam?
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
+            atque voluptate esse ex rem pariatur, quasi nihil placeat eveniet
+            ipsam?
+          </p>
+          <a href="#" class="btn-primary">Read More</a>
+        </article>
+      </div>
+    </section>
+
+    <!--  Services Section  -->
+    <section class="section services" id="services">
+      <!-- Title -->
+      <div class="title-wrapper">
+        <h2 class="title">our <span class="subtitle">services</span></h2>
+      </div>
+      <!--  Section Center  -->
+      <div class="section-center services-center">
+        <!--  Single Service  -->
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-wallet fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">saving money</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+              vero!
+            </p>
+          </div>
+        </article>
+
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-tree fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">endless hiking</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+              vero!
+            </p>
+          </div>
+        </article>
+
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-socks fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">amazing comfort</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+              vero!
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--  Featured Tours  -->
+    <section class="section featured" id="featured">
+      <!-- Title -->
+      <div class="title-wrapper">
+        <h2 class="title">Featured <span class="subtitle">tours</span></h2>
+      </div>
+      <!--  Featured Center -->
+      <div class="section-center featured-center">
+        <!--  Single Tour -->
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img
+              src="./images/tour-1.jpeg"
+              class="tour-img"
+              alt="Awesome Tour"
+            />
+            <p class="tour-date">August 14th, 2019</p>
+          </div>
+          <!--  Tour Footer -->
+          <div class="tour-footer">
+            <h4 class="tour-title">Tibet Adventure</h4>
+            <!--  Tour Info -->
+            <div class="tour-info">
+              <p class="tour-country">
+                <span><i class="fas fa-map"></i></span>
+                China
+              </p>
+              <div class="tour-details">
+                <p>6 days</p>
+                <p>from $2100</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img
+              src="./images/tour-2.jpeg"
+              class="tour-img"
+              alt="Awesome Tour"
+            />
+            <p class="tour-date">October 1st, 2019</p>
+          </div>
+          <!--  Tour Footer -->
+          <div class="tour-footer">
+            <h4 class="tour-title">Best of Java</h4>
+            <!--  Tour Info -->
+            <div class="tour-info">
+              <p class="tour-country">
+                <span><i class="fas fa-map"></i></span>
+                Indonesia
+              </p>
+              <div class="tour-details">
+                <p>10 days</p>
+                <p>from $4100</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img
+              src="./images/tour-3.jpeg"
+              class="tour-img"
+              alt="Awesome Tour"
+            />
+            <p class="tour-date">September 26th, 2019</p>
+          </div>
+          <!--  Tour Footer -->
+          <div class="tour-footer">
+            <h4 class="tour-title">Explore Hong kong</h4>
+            <!--  Tour Info -->
+            <div class="tour-info">
+              <p class="tour-country">
+                <span><i class="fas fa-map"></i></span>
+                Hong Kong
+              </p>
+              <div class="tour-details">
+                <p>12 days</p>
+                <p>from $3100</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="tour-card">
+          <div class="tour-img-container">
+            <img
+              src="./images/tour-4.jpeg"
+              class="tour-img"
+              alt="Awesome Tour"
+            />
+            <p class="tour-date">December 5th, 2019</p>
+          </div>
+          <!--  Tour Footer -->
+          <div class="tour-footer">
+            <h4 class="tour-title">Kenya Highlights</h4>
+            <!--  Tour Info -->
+            <div class="tour-info">
+              <p class="tour-country">
+                <span><i class="fas fa-map"></i></span>
+                Kenya
+              </p>
+              <div class="tour-details">
+                <p>22 days</p>
+                <p>from $5400</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="tour-link">
+        <a href="#" class="btn-primary">All Tours</a>
+      </div>
+    </section>
+
+    <!--  Gallery -->
+    <section class="section gallery" id="gallery">
+      <!-- Title -->
+      <div class="title-wrapper">
+        <h2 class="title">Our <span class="subtitle">Gallery</span></h2>
+      </div>
+      <!--  Gallery Center  -->
+      <div class="gallery-center">
+        <!--  Single Item -->
+        <div class="gallery-img-container">
+          <img
+            src="./images/tour-1.jpeg"
+            class="gallery-img"
+            alt="awesome tour"
+          />
+          <span class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+
+        <div class="gallery-img-container">
+          <img
+            src="./images/tour-2.jpeg"
+            class="gallery-img"
+            alt="awesome tour"
+          />
+          <span class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+
+        <div class="gallery-img-container">
+          <img
+            src="./images/tour-3.jpeg"
+            class="gallery-img"
+            alt="awesome tour"
+          />
+          <span class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+
+        <div class="gallery-img-container">
+          <img
+            src="./images/tour-4.jpeg"
+            class="gallery-img"
+            alt="awesome tour"
+          />
+          <span class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+
+        <div class="gallery-img-container">
+          <img
+            src="./images/tour-5.jpeg"
+            class="gallery-img"
+            alt="awesome tour"
+          />
+          <span class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+
+        <div class="gallery-img-container">
+          <img
+            src="./images/tour-6.jpeg"
+            class="gallery-img"
+            alt="awesome tour"
+          />
+          <span class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!--  Deals -->
+    <section class="section deals" id="deals">
+      <!-- Title -->
+      <div class="title-wrapper">
+        <h2 class="title">Hot <span class="subtitle">Deals</span></h2>
+      </div>
+      <form>
+        <div class="input-group">
+          <input type="email" class="form-control" placeholder="Your Email" />
+          <button type="submit" class="btn-submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <!--  Footer  -->
+    <footer class="section footer">
+      <!--  Footer Links  -->
+      <div class="footer-links">
+        <a href="#home" class="footer-link">Home</a>
+        <a href="#about" class="footer-link">About</a>
+        <a href="#services" class="footer-link">Services</a>
+        <a href="#featured" class="footer-link">Featured</a>
+        <a href="#gallery" class="footer-link">Gallery</a>
+      </div>
+      <!--  Footer Icons  -->
+      <div class="footer-icons">
+        <a href="https://www.facebook.com" target="_blank" class="footer-icon">
+          <i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://www.facebook.com" target="_blank" class="footer-icon">
+          <i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.facebook.com" target="_blank" class="footer-icon">
+          <i class="fab fa-squarespace"></i
+        ></a>
+      </div>
+      <!--  Copyright -->
+      <p class="copyright">
+        Copyright &copy; Backroads Travel Tours Company
+        <span id="date"></span>. All Rights Reserved
+      </p>
+    </footer>
+
+    <!--  Javascript  -->
+    <script src="app.js"></script>
+  </body>
+</html>
